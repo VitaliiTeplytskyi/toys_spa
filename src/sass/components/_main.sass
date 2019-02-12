@@ -1,0 +1,114 @@
+.intro
+    background: url(../../img/header_bg.jpg)
+    &-body 
+        &__text
+            padding-top: 100px
+            z-index: 2
+            h1 
+                text-transform: uppercase
+                font-family: "Raleway", sans-serif
+                +rfs(22px)
+                text-align: left
+                font-weight: 600
+                color: #ff6500
+                line-height: 32px
+                max-width: 700px
+                display: block
+                padding-bottom: 50px
+                span
+                    font-family: "PTSans", sans-serif
+                    color: #4CAF50
+                p 
+        &__content
+
+.intro-content
+    display: flex
+    &__left
+        width: 50%
+    &__right
+        width: 50%
+
+.intro-left
+    display: flex
+    flex-direction: column
+    align-items: center
+    &__img
+        margin-bottom: 25px
+        img
+            border-radius: 70px
+    &__button
+        min-width: 350px
+.button
+    text-align: center
+    text-decoration: none
+    +rfs(26px)
+    background-color: #fe6500
+    display: inline-block
+    vertical-align: middle
+    line-height: 65px
+    border-radius: 100px
+    font-family: "LatoRegular", sans-serif
+    color: #fff
+
+
+.intro-right
+    display: flex
+    flex-direction: column
+    align-items: center
+    position: relative
+    top: -160px
+    min-height: 570px
+    &__img
+        position: absolute
+        z-index: 1 
+        img
+            display: inline
+            max-width: 100%
+            height: auto
+    &__form
+        position: relative
+        margin-bottom: 10px
+
+.intro-form
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.18)
+    border: #fff 15px solid
+    background-color: #fff
+    padding-top: 18px
+    padding-left: 10px
+    padding-right: 10px
+    padding-bottom: 15px
+    font-size: 19px
+    font-family: "LatoRegular", sans-serif
+    text-align: center
+    max-width: 475px
+    display: inline-block
+    margin-top: 29px
+    position: relative
+    top: 42%
+    p
+        line-height: 28px
+        &:first-child 
+            padding-top: 30px
+    label
+        margin-top: 20px
+        display: block
+        input
+            display: block
+            width: 100%
+            background-color: #f2f2f2
+            text-indent: 18px
+            font-family: "PTSans", sans-serif
+            border: 1px #9E9E9E solid
+            border-radius: 50px
+            padding: 10px 0
+    &__button
+        a
+            margin-top: 20px
+            min-width: 300px
+            border: none
+    &__policy
+            text-decoration: underline
+            +rfs(14px)
+            margin-top: 5px
+            color: #918c8c
+

@@ -26,6 +26,7 @@
         &__nav
             @media screen and (max-width: 768px)
                 margin: 10px 0
+
         &__phone
                           
 .header-nav
@@ -37,12 +38,13 @@
         align-items: baseline
     @media screen and (max-width: 768px)
         flex-direction: row
+
     &__item
         margin-right: 20px
         +rfs(20)
         font-weight: normal
         @media screen and (max-width: 992px)
-            margin-bottom: 5px
+            margin-bottom: 10px
         @media screen and (max-width: 768px)
             margin: 10px 5px
         &:last-child
@@ -90,17 +92,19 @@
     display: none
     flex-direction: column
     align-items: center
-    justify-content: space-between
     width: 30px
-    height: 13px
+    height: 35px
     position: relative
     transition: all .4s
-    //@media screen and (max-width: 668px) 
-      // display: flex
+
 
     &__line
         display: inline-block
-        width: 30px
-        height: 2px
+        width: 35px
+        height: 6px
         background: #fff
-        border-radius: 3px
+        border-radius: 25px
+        margin-bottom: 4px
+        
+
+
